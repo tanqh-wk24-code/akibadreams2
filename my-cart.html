@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart - Akiba Dreams</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="my-cart.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="mylogo"><a class="logo" href="main.html">Akiba Dreams</a></div>
+            <nav class="nav-flex">
+                <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="product-wigs.html">Product</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="cart-container">
+        <div class="cart-header">
+            <h1>My cart</h1>
+            <a href="product-wigs.html" class="continue-shopping">Continue shopping</a>
+        </div>
+
+        <div class="cart-table">
+            <div class="table-header">
+                <div class="header-item">Item</div>
+                <div class="header-price">Price</div>
+                <div class="header-quantity">Quantity</div>
+                <div class="header-total">Total</div>
+            </div>
+
+            <div class="cart-item">
+                <div class="item-details">
+                    <div class="item-image">
+                        <img src="images/costume-2.jpeg" alt="Chigiri Hyoma costume">
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-name">Chigiri Hyoma costume</h3>
+                        <p class="item-description">Uwowo Chigiri Hyoma Chinese Style Costume</p>
+                        <p class="item-size">Size : M</p>
+                        <p class="item-fabric">Fabric info : Cotton, Viscose</p>
+                        <a href="#" class="edit-item">Edit</a>
+                    </div>
+                </div>
+                <div class="item-price">RM 100</div>
+                <div class="item-quantity">1</div>
+                <div class="item-total">RM 100</div>
+            </div>
+
+            <div class="cart-divider"></div>
+
+            <div class="cart-count">
+                <p>1 item</p>
+            </div>
+        </div>
+
+        <div class="cart-summary-container">
+            <div class="cart-summary">
+                <h2>Summary</h2>
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span>RM 100</span>
+                </div>
+                <div class="summary-row">
+                    <span>Shipping fees</span>
+                    <span>RM 8</span>
+                </div>
+                <div class="summary-divider"></div>
+                <div class="summary-row total-row">
+                    <span>Total</span>
+                    <span>RM 108</span>
+                </div>
+            </div>
+
+            <div class="promo-code-container">
+                <div class="promo-code">
+                    <p>Enter Promo code</p>
+                    <div class="promo-input">
+                        <input type="text" placeholder="Promo code">
+                        <button class="apply-btn">Apply</button>
+                    </div>
+                </div>
+                <button class="pay-btn">To Pay</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="about-footer">
+        <div class="container footer-container">
+            <div class="location-info">
+                <h2>Location</h2>
+                <p>Lot 1234, Jalan Mawar Indah 2,</p>
+                <p>Taman Sentosa Baru, Selayang 5,</p>
+                <p>51000 Johor Bahru, Johor, Malaysia.</p>
+            </div>
+            
+            <div class="footer-nav">
+                <div class="footer-links">
+                    <h3>Navigate</h3>
+                    <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="about-us.html">About</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Portfolio</h3>
+                    <ul>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Showcase</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Studio</h3>
+                    <ul>
+                        <li><a href="about-us.html">Services</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="contact-us.html">Email</a></li>
+                        <li><a href="contact-us.html">Form</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="social-media-footer">
+                <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>Copyright @ Term and Condition</p>
+        </div>
+    </footer>
+</body>
+</html>
